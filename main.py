@@ -164,7 +164,7 @@ def process_folders(base_folders, debug=False):
 					evt_bdf_path = os.path.join(folder_path, "evt.bdf")					
 					if os.path.exists(evt_bdf_path):
 						print(f"Processing file: {evt_bdf_path}")
-						bdf2csv_evt(evt_bdf_path, debug=debug)
+						# bdf2csv_evt(evt_bdf_path, debug=debug)
 
 # Example usage
 if __name__ == "__main__":

@@ -1,7 +1,7 @@
 # Makefile for converting BDF to CSV with debug and no-debug options
 
 # Base folders to process
-BASE_FOLDERS = ""
+BASE_FOLDERS = "/Users/shenyixiao/TsingHua/brain4music/forward/20240705_day5_teaching_experiment"
 
 # Python script
 SCRIPT = main.py
@@ -32,7 +32,7 @@ install:
 # Uninstall virtual environment by deleting it
 uninstall:
 	@echo "Deleting virtual environment..."
-	rm -rf .$(VENV_DIR)
+	rm -rf $(VENV_DIR)
 
 # Clean log and CSV files if needed
 clean:
